@@ -3,8 +3,6 @@
 #conda install nomkl / solve error
 #https://colab.research.google.com/drive/1vgWesrJvsuJR7q-IRjmw2ZzridUTeCDk?usp=sharing#scrollTo=6WuaeqyqbDhe
 
-pokus
-
 """
 %%shell
 set -e

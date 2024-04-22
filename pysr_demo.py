@@ -45,7 +45,7 @@ import pytorch_lightning as pl
 from sklearn.model_selection import train_test_split
 
 
-###### np.random.seed(0)
+# np.random.seed(0)
 N = 100000
 Nt = 100
 X = 6 * np.random.rand(N, Nt, 5) - 3

@@ -12,7 +12,7 @@ $$ z = y^2,\quad y = \frac{1}{100} \sum(y_i),\quad y_i = x_{i0}^2 + 6 \cos(2*x_{
 
 Distilled
 
-$$y = 0.477 x_{0}^{2} + 2.86 \cos{\left(2 x_{2} \right)} - 0.905$$
+$$(0.477 x_{0}^{2} + 2.86 \cos{\left(2 x_{2} \right)} - 0.905)$$
 
 
 

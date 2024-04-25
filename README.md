@@ -15,8 +15,11 @@ Distilled NN quotation
 $$ y = 0.477 x_{0}^{2} + 2.86 \cos{\left(2 x_{2} \right)} - 0.905 $$
 
 
-Neureal Network Configuration 
-fig.
+Neural Network Layout
+
+...
+
+
 
 
 

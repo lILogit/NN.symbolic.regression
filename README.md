@@ -1,6 +1,6 @@
-This is an example how compress and distill neural network weights and desribe data by a symbolic regression.
+This is an example (based on https://github.com/MilesCranmer) how compress and distill neural network weights and desribe data by a symbolic regression with pysr module.
 
-1. train/val NN (Colab GPU), output model .ckpt
+1. train/val NN (Colab GPU), output model .ckpt (i haven't GPU)
 2. distill NN (python), input model .ckpt
 3. symbolic regression (pysr, Julia, Python)
 4. compare original and distilled expression

@@ -6,7 +6,7 @@ This is an example (based on https://github.com/MilesCranmer) how to approximate
 4. compare original and distilled expression
 
 
-Original 
+Trained data 
 
 $$ z = y^2,\quad y = \frac{1}{100} \sum(y_i),\quad y_i = x_{i0}^2 + 6 \cos(2*x_{i2}) $$
 

@@ -1,4 +1,4 @@
-This is an example (based on https://github.com/MilesCranmer) how compress and distill neural network weights and desribe data by a symbolic regression with pysr module.
+This is an example (based on https://github.com/MilesCranmer) how to approximate internal part of NN by quatation with symbolic regression. 
 
 1. train/val NN (Colab GPU), output model .ckpt (i haven't GPU)
 2. distill NN (python), input model .ckpt

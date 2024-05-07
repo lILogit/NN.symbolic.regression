@@ -45,14 +45,17 @@ import pytorch_lightning as pl
 from sklearn.model_selection import train_test_split
 
 
-###### np.random.seed(0)
+# np.random.seed(0)
 N = 100000
 Nt = 100
 X = 6 * np.random.rand(N, Nt, 5) - 3
 y_i = X[..., 0] ** 2 + 6 * np.cos(2 * X[..., 2])
 y = np.sum(y_i, axis=1) / y_i.shape[1]
+# np.sum(y_i, axis=1) what does it do?
+
 z = y**2
-X.shape, y.shape
+print(X.shape, y.shape)
+
 
 hidden = 100
 
@@ -89,8 +92,6 @@ class SumNet(pl.LightningModule):
         y = torch.sum(y_i, dim=1, keepdim=True) / y_i.shape[1]
         z = self.f(y)
         return z[:, 0]
-
-    ########################################################
 
     # PyTorch Lightning bookkeeping:
     def training_step(self, batch, batch_idx):

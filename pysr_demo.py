@@ -151,6 +151,7 @@ model.fit(X=tmpX[idx2], y=tmpy[idx2])
 
 #$(0.477 x_{0}^{2} + 2.86 \cos{\left(2 x_{2} \right)} - 0.905)
 
+
 """
 A neural network can easily undo a linear transform (which commutes with the summation), so any affine transform in 
  is to be expected. The network for 
@@ -172,3 +173,11 @@ Think about what we just did: we found an analytical equation for
 And we pulled out analytical copies for 
  using symbolic regression.
 """
+
+# code plot in python function y = f(x)
+def f(x):
+    return 0.477 * x[0]**2 + 2.86 * np.cos(2 * x[2]) - 0.905
+matplotlib = plt
+matplotlib.rcParams.update({'font.size': 16})
+
+

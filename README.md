@@ -17,9 +17,6 @@ $$ y = 0.477 x_{0}^{2} + 2.86 \cos{\left(2 x_{2} \right)} - 0.905 $$
 
 Neural Network Layout
 
-![image](https://github.com/lILogit/NN.symbolic.regression/assets/19894845/fb3f1816-2e6a-494b-8a89-2d3879c424b3)
-
-
 
 
 
